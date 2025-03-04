@@ -1,0 +1,78 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background: #800f4b;
+  color: white;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  gap: 35px;
+}
+
+.nav-links a {
+  color: white;
+  font-size: 1.2rem;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
+  padding: 10px 15px;
+}
+
+.nav-links a:hover {
+  color: #ffb6c1;
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+}
+
+.profile-btn {
+  background: white;
+  color: #800f4b;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s ease-in-out;
+  font-size: 1rem;
+}
+
+.profile-btn:hover {
+  background: #a01360;
+  color: white;
+}
+
+.login-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  overflow: hidden;
+}
+
+.login-btn img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.login-btn img:hover {
+  transform: scale(1.1);
+}
