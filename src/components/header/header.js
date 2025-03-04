@@ -10,17 +10,17 @@ const Header = ({ isAuthenticated, onLogout }) => {
       <Link to="/" className="logo">FemBrace</Link>
 
       <nav className="nav-links">
-        <Link to="/dashboard/calendar">Calendar</Link>
-        <Link to="/dashboard/prediction">PCOS Prediction</Link>
-        <Link to="/dashboard/schemes">Schemes</Link>
-        <Link to="/dashboard/remedies">Remedies</Link>
+        <Link to="/dashboard/calendar">CALENDAR</Link>
+        <Link to="/dashboard/prediction">PCOS PREDICTION</Link>
+        <Link to="/dashboard/schemes">GOVERNMENT SCHEMES</Link>
+        <Link to="/dashboard/remedies">REMEDIES</Link>
       </nav>
 
       <div className="profile-section">
         {isAuthenticated ? (
           <button className="profile-btn" onClick={onLogout}>Profile</button>
         ) : (
-          <Link to="/login" className="login-btn"><img src="assets/logo.png" /></Link>
+          <Link to="/login" className="login-btn">LOGOUT</Link>
         )}
       </div>
     </header>

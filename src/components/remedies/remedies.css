@@ -3,13 +3,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     min-height: 100vh;
     padding: 50px 10%;
     background: linear-gradient(to bottom, #fff1f6, #fbd3e0);
     font-family: "Poppins", sans-serif;
     text-align: center;
     position: relative;
+    gap: 10rem;
   }
   
   .remedies-container h2 {
@@ -21,7 +22,7 @@
   }
   
   .remedies-grid {
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     gap: 20px;
     width: 90%;
