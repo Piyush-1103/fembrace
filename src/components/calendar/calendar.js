@@ -78,14 +78,6 @@ const MenstrualCalendar = () => {
           <h3>{getMonthName(0)}</h3>
           <Calendar tileClassName={tileClassName} />
         </div>
-        <div className="calendar-box">
-          <h3>{getMonthName(1)}</h3>
-          <Calendar tileClassName={tileClassName} activeStartDate={new Date(new Date().getFullYear(), new Date().getMonth() + 1, 1)} />
-        </div>
-        <div className="calendar-box">
-          <h3>{getMonthName(2)}</h3>
-          <Calendar tileClassName={tileClassName} activeStartDate={new Date(new Date().getFullYear(), new Date().getMonth() + 2, 1)} />
-        </div>
       </div>
     </div>
   );

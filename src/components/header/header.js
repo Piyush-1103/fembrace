@@ -1,12 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
+import { FaUserCircle } from 'react-icons/fa';
 import { Link } from "react-router-dom";
-
 import "./header.css";
 
-const Header = ({ isAuthenticated, onLogout }) => {
+const Header = ({ currUser, onLogout }) => {
+  
+  const [isdropDown , setisDropDown]= useState(false);
+
+  function toggleDropDown(){
+    setisDropDown(!isdropDown);
+  }
   return (
     <header className="header">
-
       <Link to="/" className="logo">FemBrace</Link>
 
       <nav className="nav-links">
@@ -17,11 +22,17 @@ const Header = ({ isAuthenticated, onLogout }) => {
       </nav>
 
       <div className="profile-section">
-        {isAuthenticated ? (
-          <button className="profile-btn" onClick={onLogout}>Profile</button>
-        ) : (
-          <Link to="/login" className="login-btn">LOGOUT</Link>
-        )}
+        <button className="profile-btn" onClick={toggleDropDown}>
+          <FaUserCircle style={{color: "#800f4b", height: "2.5rem", width: "2.5rem", borderRadius: "50%", border: "none" }} />
+        </button>
+
+        { isdropDown && 
+          <div className="dropdown-menu">
+            <p className="currUser">{currUser}</p>
+            <button className="logout-btn" onClick={onLogout}>Sign out from your account</button>
+          </div>
+        }
+
       </div>
     </header>
   );

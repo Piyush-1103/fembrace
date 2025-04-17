@@ -19,9 +19,10 @@ const Signup = () => {
     if (response.ok) {
       alert("Signup successful! Please log in.");
       navigate("/login");
-    } else {
-      alert(data.message);
-    }
+    } 
+    
+    else
+    alert(data.message);
   };
 
   return (

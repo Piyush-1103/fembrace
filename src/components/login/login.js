@@ -17,10 +17,11 @@ const Login = ({ onLogin }) => {
 
     const data = await response.json();
     if (response.ok) {
-      localStorage.setItem("authToken", data.token);
-      onLogin(data.token);
+      onLogin(data.token,username);
       navigate("/dashboard");
-    } else {
+    } 
+    
+    else {
       alert(data.message);
     }
   };

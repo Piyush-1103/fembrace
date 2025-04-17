@@ -1,0 +1,58 @@
+{
+    "Physical": [
+      { "name": "Cramps", "emoji": "💥" },
+      { "name": "Back Pain", "emoji": "🌀" },
+      { "name": "Headache", "emoji": "🤕" },
+      { "name": "Fatigue", "emoji": "😴" },
+      { "name": "Breast Tenderness", "emoji": "🥴" },
+      { "name": "Joint Pain", "emoji": "🤸‍♀️" }
+    ],
+    
+    "Emotional": [
+      { "name": "Mood Swings", "emoji": "😡" },
+      { "name": "Irritability", "emoji": "😤" },
+      { "name": "Anxiety", "emoji": "😰" },
+      { "name": "Sadness", "emoji": "😔" },
+      { "name": "Sensitivity", "emoji": "🥺" },
+      { "name": "Overwhelmed", "emoji": "😩" },
+      { "name": "Stress", "emoji": "💥😣" },
+      { "name": "PMS", "emoji": "🌸😖" }
+    ],
+    
+    "Digestive": [
+      { "name": "Bloating", "emoji": "😣" },
+      { "name": "Nausea", "emoji": "🤢" },
+      { "name": "Diarrhea", "emoji": "🧻" },
+      { "name": "Food Cravings", "emoji": "🍫" },
+      { "name": "Constipation", "emoji": "🚽" },
+      { "name": "Stomach Ache", "emoji": "🤯" }
+    ],
+    
+    "Skin": [
+      { "name": "Acne", "emoji": "🍓" },
+      { "name": "Oily Skin", "emoji": "🧴" },
+      { "name": "Dry Skin", "emoji": "🥵" },
+      { "name": "Breakouts", "emoji": "💥" },
+      { "name": "Rash", "emoji": "🦠" }
+    ],
+    
+    "Sleep": [
+      { "name": "Insomnia", "emoji": "🌙" },
+      { "name": "Oversleeping", "emoji": "🛌" },
+      { "name": "Restless Sleep", "emoji": "🌀" },
+      { "name": "Night Sweats", "emoji": "🌙💦" }
+    ],
+  
+    "Fluid": [
+      { "name": "Heavy Flow", "emoji": "💧" },
+      { "name": "Light Flow", "emoji": "💦" },
+      { "name": "Spotting", "emoji": "🌧️" },
+      { "name": "Blood Clots", "emoji": "🩸" }
+    ],
+    
+    "Weight Changes": [
+      { "name": "Weight Gain", "emoji": "⚖️🍔" },
+      { "name": "Weight Loss", "emoji": "⚖️🥗" },
+      { "name": "Water Retention", "emoji": "💧💦" }
+    ]
+}
