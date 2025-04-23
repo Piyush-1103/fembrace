@@ -8,7 +8,7 @@ const mongoose = require("./db");
 const User = require("./models/users");
 
 const app  = express();
-const PORT = 5000;
+const PORT = 5001;
 const SECRET_KEY = process.env.JWT_SECRET;
 
 app.use(cors());
@@ -50,7 +50,7 @@ app.post("/login", async (req, res) => {
     if (!isPasswordValid) 
     return res.status(401).json({ message: "Invalid credentials.Password is incorrect" });
 
-    const token = jwt.sign({ username }, SECRET_KEY, { expiresIn:"0.5hr" });
+    const token = jwt.sign({ username }, SECRET_KEY, { expiresIn:"30m" });
     res.json({ token });
   } 
   

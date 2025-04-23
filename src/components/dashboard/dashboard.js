@@ -12,7 +12,7 @@ export default function Dashboard({ currUser, onLogout }) {
     
     const token = localStorage.getItem("authToken");
 
-    fetch("http://localhost:5000/dashboard", {      
+    fetch("http://localhost:5001/dashboard", {      
       method: "GET",
       headers: {"Authorization": `Bearer ${token}` }
     })
