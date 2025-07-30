@@ -2,22 +2,41 @@
 
 Fembrace is a full-stack web platform designed to assist in the early detection of PCOS/PCOD in women. It combines medical awareness, symptom-based analysis, and machine learning predictions.
 
-## 🔗 Live Site
-[Deployed Link](https://your-live-link-here)
+## 💻 Tech Stack
 
-## 💡 Features
-- 📊 ML model-based PCOS prediction
-- 🩺 Symptom checker
-- 🧠 Health blog and education resources
-- 🧬 Model types used: Logistic Regression, SVM, Gradient Boosting, FNN
-- 🔄 SMOTE & Bayesian Optimization
-- 🧪 Flask API for model deployment
+- **Frontend**: React.js  
+- **Backend**: Node.js, Express.js  
+- **Database**: MongoDB  
+- **Model Integration**: Flask
 
-## 🛠️ Tech Stack
-- **Frontend:** React.js, Tailwind CSS
-- **Backend:** Node.js, Express.js, MongoDB
-- **Model Deployment:** Python, Flask
-- **Data Handling:** Pandas, Sklearn, Imbalanced-learn
+---
+
+## 🧠 Machine Learning Models Used
+
+- Logistic Regression  
+- Support Vector Machine (SVM)  
+- Gradient Boosting  
+- Random Forest  
+- Feedforward Neural Network (FNN)
+
+---
+
+## ⚙️ Optimization & Preprocessing
+
+- **SMOTE**: For handling class imbalance  
+- **Bayesian Optimization**: For hyperparameter tuning
+
+---
+
+## 🚀 Features
+
+- Patient data intake and prediction
+- Next period date detection via calendar module
+- Interactive and responsive UI
+- Secure and scalable architecture
+
+---
+
 
 ## 📂 Project Structure
 client/
